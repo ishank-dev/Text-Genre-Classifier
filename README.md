@@ -34,4 +34,6 @@ Movie:  A Secret
 Predicted genre:  [('Drama',)]
 Actual genre:  ['Drama', 'World cinema'] 
 ```
-
+# Desclaimer 
+The threshold value is set to 0.5
+Predictions with less than 0.5 accuracy won't be detected
