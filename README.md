@@ -1,5 +1,5 @@
 # text-genre-classifier
-Classify any text into various genres based on the plor summary of the text
+Classify any text into various genres based on the plot summary of the text
 
 ## The model is trained and tested on the following dataset
 http://www.cs.cmu.edu/~ark/personas/
