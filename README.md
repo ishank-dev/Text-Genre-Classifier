@@ -8,7 +8,7 @@ http://www.cs.cmu.edu/~ark/personas/
 https://www.kaggle.com/PromptCloudHQ/imdb-data
 
 
-Sample Predictions on first dataset
+Sample Predictions on IMDB Dataset
 ```
 John Wick------------->Action,Crime,Thriller
 An ex-hitman comes out of retirement to track down the gangsters that took everything from him.
