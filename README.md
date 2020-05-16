@@ -8,32 +8,38 @@ http://www.cs.cmu.edu/~ark/personas/
 https://www.kaggle.com/PromptCloudHQ/imdb-data
 
 
-Sample Predictions
+Sample Predictions on first dataset
 ```
-Movie:  An Arcadian Maid 
-Predicted genre:  [('Romance Film',)]
-Actual genre:  ['Short Film', 'Drama'] 
+John Wick------------->Action,Crime,Thriller
+An ex-hitman comes out of retirement to track down the gangsters that took everything from him.
+Predicted--> [('Crime Fiction',)]
 
-Movie:  Saw V 
-Predicted genre:  [('Horror', 'Thriller')]
-Actual genre:  ['Thriller', 'Crime Fiction', 'Horror', 'Psychological thriller', 'Cult', 'Slasher']
+Pirates of the Caribbean: At World's End------------->Action,Adventure,Fantasy
+Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.
+Predicted--> [('Action/Adventure',)]
 
-Movie:  Back Stage 
-Predicted genre:  [('Comedy',)]
-Actual genre:  ['Short Film', 'Silent film', 'Indie', 'Black-and-white', 'Comedy'] 
+Dead Awake------------->Horror,Thriller
+A young woman must save herself and her friends from an ancient evil that stalks its victims through the real-life phenomenon of sleep paralysis.
+Predicted--> [('Horror',)]
 
-Movie:  Black Samurai 
-Predicted genre:  [('Action',)]
-Actual genre:  ['Crime Fiction', 'Action/Adventure', 'Blaxploitation', 'Martial Arts Film', 'Action', 'Spy'] 
+Lowriders------------->Drama
+A young street artist in East Los Angeles is caught between his father's obsession with lowrider car culture, his ex-felon brother and his need for self-expression.
+Predicted--> [('Drama', 'Indie')]
 
-Movie:  The Goodbye Girl 
-Predicted genre:  [('Comedy', 'Drama', 'Romance Film')]
-Actual genre:  ['Romantic comedy', 'Romance Film', 'Drama', 'Comedy', 'New Hollywood'] 
+** NOT PREDICTED ON LOW ACCURACY**
+Zootopia------------->Animation,Adventure,Comedy
+In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.
+Predicted--> [()]
 
-Movie:  A Secret 
-Predicted genre:  [('Drama',)]
-Actual genre:  ['Drama', 'World cinema'] 
+** FALSELY PREDICTED IN SOME PLOTS**
+The Autopsy of Jane Doe------------->Horror,Mystery,Thriller
+A father and son, both coroners, are pulled into a complex mystery while attempting to identify the body of a young woman, who was apparently harboring dark secrets.
+Predicted--> [('Drama',)]
+
+
+
 ```
+Sample 
 # Desclaimer 
 The threshold value is set to 0.5
 Predictions with less than 0.5 accuracy won't be detected
